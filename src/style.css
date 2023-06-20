@@ -193,17 +193,110 @@ section.feature2 .image {
 
 .two-columns .column {
   flex: 1;
-  padding: 20px;
+  padding: 30px;
+}
+
+.reviews {
+  padding: 30px;
   text-align: center;
+  font-size: 25px;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  align-items: flex-start;
 }
 
-.two-columns .column img {
-  max-width: 100%;
-  height: auto;
+.reviews h2 {
   margin-bottom: 20px;
 }
 
-.two-columns .column h1,
-.two-columns .column p {
+.reviews .revtit {
   margin-bottom: 20px;
 }
+
+.review {
+  background-color: var(--dark-blue);
+  color: var(--purple-haze);
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 10px;
+  width: calc(30% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviewtit {
+  text-align: center;
+  margin: 0 auto;
+  width: 30%
+}
+
+.review p {
+  margin: 10px 0;
+}
+
+.bottom {
+  background-color: var(--dark-blue);
+  color: var(--purple-haze);
+  padding: 5px 0;
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  bottom: 0px;
+  position: relative;
+  margin-top: 20px;
+}
+
+#planos{
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+#planos section{
+  background-color: var(--dark-blue);
+  color: var(--purple-haze);
+  padding: 30px;
+  margin: 5px;
+}
+
+#planos section a{
+  background-color: var(--purple);
+  color: var(--purple-haze);
+  transition: 0.5s;
+  padding: 5px;
+  border-radius: 25px;
+  margin: 0 10px;
+  font-size: 10px;
+}
+
+#planos section a:hover{
+  background-color: var(--dark-blue);
+}
+
+#avatar {
+  border-radius: 100%;
+  width: 4rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.socials a {
+  color: var(--purple-haze);
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+/* Add font-awesome CSS link in the head section of the HTML document */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
