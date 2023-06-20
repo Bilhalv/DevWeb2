@@ -5,7 +5,7 @@ body {
 header {
   background-color: #170B3B;
   color: #9388A2;
-  padding: 30px;
+  padding: 8px;
   text-align: center;
   font-size: 25px;
   display: flex;
@@ -13,6 +13,7 @@ header {
   margin: -8px;
   position: sticky;
   height: 50px;
+  box-shadow: 0px 1px 20px #000;
 }
 a {
   color: #9388A2;
@@ -41,6 +42,7 @@ nav section a {
   margin: 0 5px;
   padding: 15px;
   border-radius: 25px;
+  transition: 0.5s;
 }
 
 nav section a:hover {
@@ -48,34 +50,29 @@ nav section a:hover {
   color: #9388A2;
 }
 
-img {
-  width: 100%;
-  height: auto;
+#logo img {
   border-radius: 100%;
+  background-color: #170B3B;
+  width: 4rem;
 }
 
-#logo {
-  background-color: #170B3B;
-  width: 5rem;
-  height: 80px;
-  margin-right: 10px;
+#logo:hover {
+  background-color: transparent;
 }
 
 #cad{
   background-color: #341948;
-  color: #9388A2;
 }
 
 #cad:hover {
   background-color: #170B3B;
-  color: #9388A2;
 }
 
 .login {
   background-color: #170B3B;
   border-radius: 5px;
   padding: 5px;
-  right: 50px;
+  right: 30px;
   position: absolute;
 }
 
@@ -85,18 +82,26 @@ img {
   padding: 30px;
   text-align: center;
   font-size: 25px;
+  width: 75%;
   display: flex;
-  width: 100%;
-  margin: -8px;
-  position: sticky;
-  height: 50px;
-}
-
-main section{
+  border-radius: 30px;
+  margin: 0 auto;
   margin-top: 20px;
-  width: 50%;
 }
 
+.banner a {
+  background-color: #341948;
+  transition: 0.5s;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.banner a:hover {
+  background-color: #170B3B;
+}
+.banner a {
+  height: fit-content;
+}
 /* 
 color palette
 black - #0E050F
