@@ -167,6 +167,16 @@ section.feature2 .image {
   text-align: justify;
 }
 
+th{
+  border-bottom: var(--purple) solid 2px;
+}
+
+.planos{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .two-columns {
   display: flex;
   justify-content: center;
@@ -254,7 +264,6 @@ section.feature2 .image {
   font-size: 14px;
   width: 100%;
   bottom: 0px;
-  position: relative;
   margin-top: 20px;
 }
 
@@ -268,21 +277,28 @@ section.feature2 .image {
   background-color: var(--dark-blue);
   color: var(--purple-haze);
   padding: 30px;
+  padding-top: 10px;
   margin: 5px;
+  border-radius: 30px;
 }
 
 #planos section a{
   background-color: var(--purple);
   color: var(--purple-haze);
   transition: 0.5s;
-  padding: 5px;
+  padding: 10px;
   border-radius: 25px;
   margin: 0 10px;
-  font-size: 10px;
+  margin-top: 10px;
 }
 
 #planos section a:hover{
   background-color: var(--dark-blue);
+}
+
+#planos section table{
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 #avatar {
